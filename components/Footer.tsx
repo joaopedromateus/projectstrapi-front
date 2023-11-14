@@ -3,19 +3,10 @@
 import React from "react";
 import Link from "next/link";
 import { Icon } from '@iconify/react';
-import Lottie from "lottie-react"
-import  animationData from "../public/assets/data.json"
-import {BiSearch} from "react-icons/bi"
 const Footer = () => {
-  return(
-
-
-
-
+  return(        
+        <div className=" mx-auto  h-[137px] bg-gradient-to-r from-[#EF3037] to-[#3F3F95] text-white  justify-center flex flex-row  items-center ">
         
-        <div className=" mx-auto mt-[35px] h-[137px] bg-gradient-to-r from-[#EF3037] to-[#3F3F95] text-white flex items-center justify-center flex flex-row  ">
-        
-
             <div className="flex flex-row space-x-3 ml-[-160px] mr-[80px]">
             <Link href={'https://www.facebook.com/seinfra.ba/'}>
             <Icon  icon="line-md:facebook" className="w-[35px] h-[40px]"/>
@@ -44,11 +35,8 @@ const Footer = () => {
             Horário de funcionamento: 08:30 às 12:00 e 13:30 às 18:00h</p>
             </div>
 
-      
-      
             <div className="flex flex-col space-y-2 ">
             <p>Empresas vinculadas: </p>
-          
             <Link href={'http://www.agerba.ba.gov.br'}>
             <img src="/assets/logoagerba.png" alt="" className="w-[110px]" />
             </Link>
@@ -56,11 +44,7 @@ const Footer = () => {
             <img src="/assets/logobahiagas.png" alt="" className="w-[130px]" />
             </Link>
             </div>
-
-
         </div>
-  
-    
   )
 }
 

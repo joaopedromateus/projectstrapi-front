@@ -5,7 +5,9 @@ import Link from "next/link";
 export default function NoticiasPage(){
   return <>
   
-  Página da listagem de notícias
+    {/* <h1 className="font-bold text-[1.3rem]  ml-[337px]">
+              Notícias:
+    </h1> */}
   <Blogs/> </>
 }
 
